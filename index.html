@@ -1,0 +1,178 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elena Manevska</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#about"><span>Who am I?</span></a></li>
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/26.png" alt="" style="border-radius: 80%"/>
+			</div>
+			<div class="banner-right">
+				<h1 style="font-size: x-large">ELENA MANEVSKA</h1>
+				<div class="border"></div>
+				<h2>Software Engineer</h2>
+				<a target="_blank" href="http://manevska.github.io/Elena_Manevska_CV.pdf">Grab my résumé</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>Hey ya fellas!</p><p> If you are here it means I wanna do business with ya. <br>And if I wanna do business with ya it means you are pretty awesome indeed. <br>So good for us.<br> Or if you are visiting by your own choice, without my self-promotion, then even better!<br> Anyway you can grab my CV above or stalk me on some social networks through some clicks below.<br> Hope you like what you see 😉 </p>
+		
+		
+		
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+
+
+
+<div class="contact-back"></div>
+<!--contact-->
+<div class="contact about" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="text-center nav-social" style="margin-top:50px !important">
+			<ul>
+				<div class="col-xs-6">
+					<li><a class="social-network" target="_blank" href="https://www.facebook.com/ManevskaElena"><i class="fa fa-facebook fa-fw"></i><span>Facebook</span></a></li>
+					<li><a class="social-network" target="_blank" href="https://twitter.com/Sapiosexual_E"><i class="fa fa-twitter fa-fw"></i><span>Twitter</span></a></li>
+					<li><a class="social-network" target="_blank" href="https://www.instagram.com/elena_manevska/"><i class="fa fa-instagram fa-fw"></i><span>Instagram</span></a></li>
+				</div>
+				<div class="col-xs-6">
+					<li><a class="social-network" target="_blank" href=#><i class="fa fa-linkedin fa-fw"></i><span>LinkedIn</span></a></li>
+					<li><a class="social-network" target="_blank" href="https://github.com/manevska"><i class="fa fa-github fa-fw"></i><span>GitHub</span></a></li>
+					<li><a class="social-network" target="_blank" href=#><i class="fa fa-pinterest fa-fw"></i><span>Pinterest</span></a></li>
+				</div>
+			</ul>
+		</div>
+		</br>
+		<div class="text-center" style="margin-top:50px !important">
+			<h4>Feel free to email me about work, cool projects and ideas or just to say hello!</h4> </br></br>
+			<h4 style="color:#FFFFFF;">96manevskaelena@gmail.com</h4>
+		</div>
+			
+			
+			<div class="clearfix"></div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
