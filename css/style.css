@@ -141,14 +141,14 @@ letter-spacing: 15px;
 }
 .banner-right a{
 text-decoration:none;
-color:#ffffff;
+color:#52edc7;
 font-size:16px;
 font-weight:500;
 padding:16px 20px;
 border:2px solid #fff;
 }
 .banner-right a:hover{
-border:2px solid #000;
+border:2px solid #52edc7;
 }
 .banner-left{
 float:left;
